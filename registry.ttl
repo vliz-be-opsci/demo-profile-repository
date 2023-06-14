@@ -1,0 +1,7 @@
+@prefix schema: <http://schema.org/> .
+
+<./> a schema:CreativeWork ;
+    schema:hasPart [ a schema:ItemList ;
+            schema:isPartOf <./> ;
+            schema:name "registry of all profiles" ] .
+
