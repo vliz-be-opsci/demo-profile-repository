@@ -1,8 +1,0 @@
-2023-06-14 12:16:35,221 - WARNING - utils.contact  - Contact is neither a mail nor an orcid: Gepard Retardieu
-2023-06-14 12:16:35,221 - WARNING - utils.contact  - Contact is neither a mail nor an orcid: John Doe
-2023-06-14 12:16:35,221 - WARNING - utils.contact  - Contact is neither a mail nor an orcid: Homer Simpson
-2023-06-14 12:16:35,222 - WARNING - utils.contact  - Contact is neither a mail nor an orcid: schijt
-2023-06-14 12:16:35,222 - WARNING - utils.build_registry  - Contact Gepard Retardieu is not valid
-2023-06-14 12:16:35,222 - WARNING - utils.build_registry  - Contact John Doe is not valid
-2023-06-14 12:16:35,222 - WARNING - utils.build_registry  - Contact Homer Simpson is not valid
-2023-06-14 12:16:37,475 - WARNING - utils.build_registry  - Contact schijt is not valid
