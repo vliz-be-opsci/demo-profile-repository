@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: RO-Crate to Pages
-        uses: cedricdcc/test-profile-repository@latest
+        uses: vliz-be-opsci/profile-repository-to-pages@latest
         with:
           config: .config.yml
       - name: Deploy
