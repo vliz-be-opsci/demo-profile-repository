@@ -12,10 +12,9 @@ jobs:
       - name: RO-Crate to Pages
         uses: vliz-be-opsci/profile-repository-to-pages@latest
         with:
-          config: .config.yml
+          base_uri: https://open-science.vliz.be/demo-profile-repository/
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./unicornpages
-          base_uri: https://open-science.vliz.be/demo-profile-repository/
