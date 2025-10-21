@@ -44,14 +44,24 @@
     schema:version "1.0.0" .
 
 <https://cedricdcc.github.io/test-profile-repository/test/data/> a schema:Dataset,
+        schema:ListItem,
         prof:Profile ;
     schema:author "Kendrick Lemarenostrum" ;
     schema:description "test repo for test profile" ;
     schema:hasPart <https://cedricdcc.github.io/test-profile-repository/test/data/README.md> ;
+    schema:item <https://cedricdcc.github.io/test-profile-repository/test/data/> ;
     schema:keywords "correct",
         "profile",
         "test" ;
     schema:license <https://creativecommons.org/licenses/by/4.0/> ;
     schema:name "test profile A" ;
     schema:version "1.0.0" .
+
+[] a schema:WebPage ;
+    schema:headline "test file readme" ;
+    schema:url <https://cedricdcc.github.io/test-profile-repository/test/data/> .
+
+[] a schema:WebPage ;
+    schema:headline "test file readme" ;
+    schema:url <https://cedricdcc.github.io/test-profile-repository/test/data/> .
 
